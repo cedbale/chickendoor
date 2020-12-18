@@ -1,3 +1,8 @@
 import door from './door.js';
 
-door.open();
+await door.init();
+if(door.isClosed()) {
+    door.open();
+} else {
+    door.close();
+}
