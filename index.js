@@ -1,8 +1,11 @@
-import door from './door.js';
+const door = require('./lib/door.js');
 
-await door.init();
-if(door.isClosed()) {
-    door.open();
-} else {
-    door.close();
-}
+(async () => {
+    await door.init();
+    if(door.isClosed()) {
+        await door.open();
+    } else {
+        await door.close();
+    }
+    // process.exit(0);
+})()

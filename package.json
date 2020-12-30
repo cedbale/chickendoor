@@ -2,7 +2,7 @@
   "name": "chickendoor",
   "type": "module",
   "version": "0.0.0",
-  "description": "",
+  "description": "GPIO module to manage IOT door opening/closing",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -14,12 +14,6 @@
     "rpi-gpio": "^2.1.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
-    "babel-jest": "^26.6.3",
-    "eslint": "^7.2.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1",
     "jest": "^26.6.3"
   },
   "jest": {
